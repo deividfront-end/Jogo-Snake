@@ -1,0 +1,137 @@
+
+
+body{
+
+ background-image: url(./img/pexels-jan-kopřiva-3281127.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+.controls {  
+    display: flex;  
+    justify-content: center;  
+    margin-top: 20px;  
+}  
+.btn {  
+    width: 70px;  
+    height: 70px;  
+    margin: 5px;  
+    font-size: 24px;  
+    border: none;  
+    background-color: #dfed0f;  
+    color: white;  
+    border-radius: 10px;  
+    cursor: pointer;  
+}  
+
+    .container-box{
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        background-color: rgba(165, 42, 42, 0);
+        width:auto;
+        height: 650px;
+    }
+
+
+    .canvas{
+        display: flex;
+        justify-content: center;
+       border-style: solid;
+        border-color: rgba(83, 113, 2, 0.559);
+        
+    }
+    
+    
+    .container-titulo{
+       
+        color: rgba(247, 185, 16, 0.79);
+        width: auto;
+        height: 100px;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.33);
+        font-family: 'Russo One', sans-serif;
+        font-size: 50px;
+        
+    }
+
+    .rodape{
+        display: flex;
+        justify-content: center;
+        background-color: rgba(0, 0, 0, 0.143);
+        height: 50px;
+        text-align: center;
+        align-items: center;
+        color: rgb(245, 245, 245);
+    }
+
+    @media (max-width: 415px) {  
+       
+
+        body{
+            margin: 0;
+            box-sizing:border-box;
+            max-width: auto!important;
+        
+           background-color: black;
+            background-size: cover;
+        }
+        .container-box{
+            display: flex;
+            justify-content: center;
+            justify-items: center;
+            width:auto;
+            height: 400px;
+        }
+    
+    
+        .canvas{
+            display: flex;
+            justify-content: center;
+            border-style: solid;
+            border-color: rgba(83, 113, 2, 0.559);
+            
+        }
+        
+        
+        .container-titulo{
+           
+            color: rgba(247, 185, 16, 0.79);
+            width: auto;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.33);
+            font-family: 'Russo One', sans-serif;
+            font-size: 40px;
+            
+        }
+    
+        .rodape{
+            display: flex;
+            justify-content: center;
+            background-color: rgba(0, 0, 0, 0.143);
+            height: 50px;
+            text-align: center;
+            align-items: center;
+            color: rgb(245, 245, 245);
+            
+            margin-top: 20px;
+            padding-bottom: 20px;
+        }
+        .controls {  
+            display: flex;  
+            justify-content: center;  
+            margin-top: 20px;  
+        }  
+        .btn {  
+            width: 70px;  
+            height: 70px;  
+            margin: 5px;  
+            font-size: 24px;  
+            border: none;  
+            background-color: #f0b103;  
+            color: white;  
+            border-radius: 10px;  
+            cursor: pointer;  
+        }  
+    
+      
+    }

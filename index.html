@@ -1,0 +1,43 @@
+<!DOCTYPE html>  
+<html lang="pt-BR">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <link rel="stylesheet" href="style.css">
+    <title>Jogo da Cobrinha</title>  
+     
+</head>  
+<body>  
+
+    <header>
+        <div class="container-titulo"> 
+            <h1>SNAKE</h1>
+        </div>
+    </header>
+
+
+    <div class="container-box">
+<canvas id="snake" width="512" height="512"></canvas>  
+</div>
+
+<div class="controls">  
+    <button class="btn" onclick="changeDirection('up')">⬆️</button>  
+    <div>  
+        <button class="btn" onclick="changeDirection('left')">⬅️</button>  
+        <button class="btn" onclick="changeDirection('right')">➡️</button>  
+    </div>  
+    <button class="btn" onclick="changeDirection('down')">⬇️</button>  
+</div>  
+
+
+    
+    
+<footer>
+    <div class="rodape">
+        &copy; Deivid Souza - 2024
+    </div> 
+</footer>
+ 
+<script defer src="script.js"></script>
+</body>  
+</html>
